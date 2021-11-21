@@ -215,7 +215,7 @@ section{
 .about .about-content .left img{
     
     width: 300px;
-    object-fit: contain;
+    
     object-position: top;
     border-radius: 50%;
 
