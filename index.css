@@ -113,10 +113,13 @@
         display: flex;
        background-color: #28FFBF;
        background-image: url(waves.png);
-         height: 100vh;
-         font-family: 'Ubuntu',sans-serif;
+        height: 100vh;
+        font-family: 'Ubuntu',sans-serif;
         color: #111;
-        min-height: 500px;   }
+        min-height: 500px;  
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; }
 .home .max-width{
      margin: auto 0 auto  40px;
  }
@@ -135,7 +138,7 @@
 }
 .home .home-content .text-3{
     font-size: 85px;
-    color: #3DB2FF;
+    color: #fff;
     margin: 5px , 0;
 }
 .home .home-content .text-3 span{
@@ -194,7 +197,7 @@ section{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: #FDFCE5;
+    background: #28FFBF;
     transform: translateX(-50%);
 }
 
@@ -211,10 +214,10 @@ section{
 
 .about .about-content .left img{
     
-    width: 400px;
-    object-fit: cover;
+    width: 300px;
+    object-fit: contain;
     object-position: top;
-    border-radius: 6px;
+    border-radius: 50%;
 
 }
 
@@ -552,7 +555,7 @@ footer span a:hover{
     .menu-btn{
     display: block;
     z-index: 999;
-    display: initial;
+    
     cursor: pointer;
           
     }
@@ -619,10 +622,6 @@ footer span a:hover{
         font-size: 27px;
     }
 }
-
-
-
-
 @media(max-width: 507px){
     .home .home-content .text-2{
         font-size: 45px;
