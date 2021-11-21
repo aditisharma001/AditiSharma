@@ -20,16 +20,16 @@ $(document).ready(function(){
     });
     // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["Technophile...","Web Developer...", "Believer...","Pluviophile...","Learner...",  "Optimist...", ],
-    typeSpeed: 100,
-    backSpeed: 60,
+    strings: ["Technophile...","Web Developer...", "Believer...","Pluviophile...","Learner...",  "Dreamer...", ],
+    typeSpeed: 150,
+    backSpeed: 80,
     loop: true
 });
 
 var typed = new Typed(".typing-2", {
-    strings: ["Technophile...","Web Developer...", "Believer...", "Learner...",  "Optimist...", ],
-    typeSpeed: 100,
-    backSpeed: 60,
+    strings: ["Technophile...","Web Developer...", "Believer...", "Learner...",  "Dreamer...", ],
+    typeSpeed: 150,
+    backSpeed: 80,
     loop: true
 });
 //toggle menu/navbar script

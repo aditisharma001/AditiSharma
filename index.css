@@ -215,7 +215,6 @@ section{
 .about .about-content .left img{
     
     width: 300px;
-    
     object-position: top;
     border-radius: 50%;
 
@@ -306,8 +305,6 @@ section{
     display: flex;
     justify-content: center;
 }
-
-
     .section .skills {
         background-color: #eeb4aa;
         padding-top: 80px;
@@ -525,7 +522,7 @@ section{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #5026A7;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
