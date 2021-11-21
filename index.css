@@ -5,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
-    
 }
     html{
         scroll-behavior: smooth;
@@ -111,7 +109,6 @@
             pointer-events: auto;
         }
         /*home section*/
- 
     .home{
         display: flex;
        background-color: #28FFBF;
@@ -125,7 +122,8 @@
  }
  .home .home-content .text-1{
      font-size: 27px;
-     color: rgb(40, 26, 243);
+     color:#fff;
+     font-weight: 600;
     
 }
 .home .home-content .text-2{
