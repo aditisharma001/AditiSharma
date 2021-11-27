@@ -64,7 +64,7 @@
     display: inline-block;
     align-items: left; 
 }
-.navbar .menu li a { 
+.navbar .menu li a {
     color : rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 500;
