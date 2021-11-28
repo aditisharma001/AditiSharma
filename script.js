@@ -34,8 +34,8 @@ var typed = new Typed(".typing-2", {
 });
 //toggle menu/navbar script
 $('.menu-btn').click(function(){
-    $('.navbar .menu').toggle("active");
-    $('.menu-btn i').toggle("active");
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
 });
 });
  
